@@ -1,0 +1,43 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: aquamarine;
+    padding-left: 1em;
+    padding-right: 1em;
+   
+    display: flex;
+    flex-direction: row;
+    align-items: fill;
+    justify-content: space-between;
+}
+
+header h1 {
+    background-image: image();
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
